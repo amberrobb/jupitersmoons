@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Jupiter's Moons</title>
+  </head>
+  <body>
+    <nav id="mainNav" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+      
+      <button class="navbar-toggler bg-dark" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link"><i class="fa fa-rocket" aria-hidden="true"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="#io" class="nav-link">IO</a>
+          </li>
+          <li class="nav-item">
+            <a href="#europa" class="nav-link">EUROPA</a>
+          </li>
+          <li class="nav-item">
+            <a href="#ganymede" class="nav-link">GANYMEDE</a>
+          </li>
+          <li class="nav-item">
+            <a href="#callisto" class="nav-link">CALLISTO</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" data-toggle="modal" data-target="#exampleModal" class="nav-link">ABOUT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container d-flex text-center justify-content-center" aria-label="An image of Jupiter taken by the Hubble space telescope">
+        <h1 class="display-4 my-5" style="color: lightgray;"><span>J</span>UPITER'S <span>M</span>OONS</h1>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center py-0">
+      <img id="solar" class="my-4" src="img/solar_system.svg">
+    </div>
+
+
+    <div class="container-fluid text-center py-0">
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-8 col-10">
+          <p id="introduction">Introduction</p>
+          <p id="introduction">Although Jupiter has 27 moons in total, the four biggest ones (Io, Europa, Ganymede and Callisto) are commonly referred to as "Galilean moons" and were discovered by the Italian astronomer in January of 1610 after he made severe improvements to his telescope. They are among the biggest objects in the solar system (click tooltip-buttons for more info).</p>
+          <hr>     
+      </div>
+    </div>
+
+    
+    <div container-fluid px-0>
+
+      <!-- ++++++++++++++++++++++++++++++++++++ -->
+      <!-- +++++++++++++IO+++++++++++++++++++++ -->
+      <!-- ++++++++++++++++++++++++++++++++++++ -->
+      <div class="row align-items-center">
+        <div class="col-lg-6 mt-4 order-lg-1 order-2">
+          <img src="img/io.jpg" class="img-fluid">
+          <button id="button1" type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-html="true" title="With over 400 active volcanoes, Io is the most geologically active object in the Solar System.">+</button>
+          <button id="button2" type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-html="true" title="Io has a diameter of 3.643 km (2.264 mi).">+</button>
+          <button id="button3" type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-html="true" title="The first spacecraft to pass by Io were the Pioneer 10 and 11 probes on 3 December 1973 and 2 December 1974, respectively.">+</button>
+        </div>  
+        <div class="col-lg-6 text-center px-5 order-lg-2 order-1" id="io">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 description">
+              <h2 class="display-4">IO</h2>
+              <p>Io (Jupiter I) is the innermost of the four Galilean moons of the planet Jupiter. It is the fourth-largest moon, has the highest density of all the moons, and has the least amount of water of any known astronomical object in the Solar System. It was discovered in 1610 and was named after the mythological character Io, a priestess of Hera who became one of Zeus' lovers.</p>
+              <p><i class="fa fa-rocket mt-3 rocket-icon" aria-hidden="true"></i></p>
+            </div>     
+          </div>
+        </div>                  
+      </div> 
+
+      <!-- ++++++++++++++++++++++++++++++++++++ -->
+      <!-- +++++++++++++EUROPA+++++++++++++++++ -->
+      <!-- ++++++++++++++++++++++++++++++++++++ -->
+      <div class="row align-items-center">
+        <div class="col-lg-6 mt-4 order-2 pr-5">
+          <img src="img/europa.jpg" class="img-fluid">
+          <button id="button1" type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-html="true" title="Europa is the smoothest known object in the Solar System, lacking large-scale features such as mountains and craters.">+</button>
+          <button id="button2" type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-html="true" title="Europa has a diameter of 3.122 km (1.940 mi).">+</button>
+          <button id="button3" type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-html="true" title="Scientists' consensus is that a layer of liquid water exists beneath Europa's surface, and that heat from tidal flexing allows the subsurface ocean to remain liquid.">+</button>
+        </div>  
+        <div class="col-lg-6 text-center px-5 order-1" id="europa">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 description">
+              <h2 class="display-4">EUROPA</h2>
+              <p>Europa (Jupiter II) is the smallest of the four Galilean moons orbiting Jupiter, and the sixth-closest to the planet of all the 79 known moons of Jupiter. It is also the sixth-largest moon in the Solar System. Europa was discovered in 1610 by Galileo Galilei[1] and was named after Europa, the Phoenician mother of King Minos of Crete and lover of Zeus (the Greek equivalent of the Roman god Jupiter).</p>
+              <p><i class="fa fa-rocket mt-3 rocket-icon" aria-hidden="true""></i></p>
+            </div>     
+          </div>
+        </div>                  
+      </div> 
+
+      <!-- ++++++++++++++++++++++++++++++++++++ -->
+      <!-- +++++++++++++GANYMEDE+++++++++++++++++++++ -->
+      <!-- ++++++++++++++++++++++++++++++++++++ -->
+      <div class="row align-items-center mt-5">
+        <div class="col-lg-6 mt-4 order-lg-1 order-2 pl-5">
+          <img src="img/ganymede.jpg" class="img-fluid">
+          <button id="button1" type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-html="true" title="The average density of Ganymede, 1.936 g/cm3, suggests a composition of about equal parts rocky material and mostly water-ices.">+</button>
+          <button id="button2" type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-html="true" title="Ganymede has a diameter of 5,268 km (3,273 mi).">+</button>
+          <button id="button3" type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-html="true" title="Ganymede is the largest satellite in the solar system, bigger than both the planets Mercury and Pluto, and two-thirds bigger than Mars.">+</button>
+        </div>  
+        <div class="col-lg-6 text-center px-5 order-lg-2 order-1" id="ganymede">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 description">
+              <h2 class="display-4">GANYMEDE</h2>
+              <p>Ganymede (Jupiter III) is the largest and most massive moon of Jupiter and in the Solar System. The ninth largest object in the Solar System, it is the largest without a substantial atmosphere. Possessing a metallic core, it has the lowest moment of inertia factor of any solid body in the Solar System and is the only moon known to have a magnetic field.</p>
+              <p><i class="fa fa-rocket mt-3 rocket-icon" aria-hidden="true""></i></p>
+            </div>     
+          </div>
+        </div>                  
+      </div> 
+
+      <!-- ++++++++++++++++++++++++++++++++++++ -->
+      <!-- +++++++++++++CALLISTO+++++++++++++++++ -->
+      <!-- ++++++++++++++++++++++++++++++++++++ -->
+      <div class="row align-items-center mt-5">
+        <div class="col-lg-6 mt-4 order-2 pr-5">
+          <img src="img/callisto.jpg" class="img-fluid">
+          <button id="button1" type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-html="true" title="Due to the uniform layer of ice on Callisto it shines brighter than the Moon.">+</button>
+          <button id="button2" type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-html="true" title="Callisto has a diameter of 4.821 km (2.995 mi).">+</button>
+          <button id="button3" type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-html="true" title="Callisto has the most craters of any object in the solar system.">+</button>
+        </div>  
+        <div class="col-lg-6 text-center px-5 order-1" id="callisto">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 description">
+              <h2 class="display-4">CALLISTO</h2>
+              <p>Callisto (Jupiter IV) is the second-largest moon of Jupiter, after Ganymede. The surface of Callisto is the oldest and most heavily cratered in the Solar System. Its surface is completely covered with impact craters. It does not show any signatures of subsurface processes such as plate tectonics or volcanism, with no signs that geological activity in general has ever occurred.</p>
+              <p><i class="fa fa-rocket mt-3 rocket-icon" aria-hidden="true"></i></p>
+            </div>     
+          </div>
+        </div>                  
+      </div>                
+    </div>    
+
+
+    <div class="container-fluid text-center py-0">
+      <img id="solar" class="my-4" src="img/solar_system.svg">
+    </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">About</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>This website was made by</p>
+        <a href="http://www.marcoberardino.com">Robert Di Marcoberardino</a>
+        <hr>
+        <p>All images are public domain</p>
+        <p>text excerpts from Wikipedia</p>
+        <p>Image of Jupiter taken by the Hubble Space Telescope - NASA, ESA, A. Simon</p>
+        <p>Io Highest Resolution Photo taken by Galileo Spacecaft - NASA, JPL, University of Arizona</p>
+        <p>Jupiters ice-covered satellite Europa - NASA, JPL, DLR</p>
+        <p>Moon Ganymede by NOAA - NASA,</p>
+        <p>Callisto taken by Galileo Spacecraft - NASA/JPL/DLR</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script>
+      $(function () {
+        $(document).scroll(function() {
+          var $nav = $("#mainNav");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        })
+      })
+
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+
+
+    </script>
+  </body>
+</html>

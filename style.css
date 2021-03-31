@@ -1,0 +1,168 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+	font-family: 'Play', sans-serif;
+	background-color: #000000;
+	color: white;
+}
+
+.navbar.scrolled {
+	background: rgba(0,0,0, 0.7);
+	transition: background 500ms;
+}
+
+
+
+.jumbotron {
+  background-image: url("img/jupiter_neu.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.my-5 {
+	margin-top: 400px !important;
+	margin-bottom: 180px !important;
+}
+
+.jumbotron h1 {
+	font-size: 3rem;
+	color: white;
+	font-weight: 100;
+	letter-spacing: 1.8rem;
+	text-shadow: 1px;
+	text-shadow: 6px 6px 2px #a38f8f;
+}
+
+.jumbotron span {
+	font-size: 3.5rem;
+}
+
+#solar {
+	opacity: 0.2;
+	transition: 1s;
+}
+
+#solar:hover {
+	opacity: 0.8;
+	transition: 750ms;
+}
+
+#solar:leave {
+	opacity: 0.8;
+	transition: 750ms;
+}
+
+a {
+	transition: 500ms;
+}
+
+
+
+h2 {
+	font-size: 2rem;
+	font-weight: 100;
+	/**letter-spacing: 0.5rem;*/
+}
+
+p {
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+
+#introduction {
+	font-size: 1.5rem;
+}
+
+hr {
+	background-color: white;
+	margin-bottom: 50px;
+}
+
+#image-io {
+	background-image: url("img/io.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#button1 {
+	position: absolute;
+	top: 20%;
+	left: 35%;
+}
+
+#button2 {
+	position: absolute;
+	top: 70%;
+	left: 40%;
+}
+
+#button3 {
+	position: absolute;
+	top: 30%;
+	left: 60%;
+}
+
+.modal h5, .modal p {
+	color: black;
+}
+
+.rocket-icon {
+	font-size: 3.5rem;
+}
+
+@media (min-width: 1200px) {
+	.my-5 {
+		margin-top: 550px !important;
+		margin-bottom: 250px !important;
+	}
+}
+
+@media (max-width: 800px) {
+	.my-5 {
+		margin-top: 300px !important;
+		margin-bottom: 100px !important;
+	}
+
+	.jumbotron h1 {
+	  font-size: 2rem;
+	  color: black;
+	  font-weight: 100;
+	  letter-spacing: 1.2rem;
+	  text-shadow: 1px;
+  }
+
+  .jumbotron span {
+		font-size: 2.5rem;
+	}
+
+	#introduction {
+		font-size: 1.2rem;
+	}
+	.rocket-icon {
+		font-size: 2.5rem;
+	}
+}
+
+@media (min-width: 2000px) {
+	.my-5 {
+		margin-top: 750px !important;
+		margin-bottom: 450px !important;
+	}
+
+	.jumbotron h1 {
+	  font-size: 5rem;
+	  color: black;
+	  font-weight: 100;
+	  letter-spacing: 1.7rem;
+	  text-shadow: 1px;
+  }
+
+  .jumbotron span {
+		font-size: 5.5rem;
+	}
+}
